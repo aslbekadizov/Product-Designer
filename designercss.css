@@ -86,19 +86,26 @@ p {
 ul {
     list-style-type: none;
 }
+
 .row{
     display: flex;
 }
+
+.col{
+    width: 50%;
+}
+
 .container{
-    width: 1202px;
+    max-width: 1202px;
     margin: 0 auto;
 }
+
 .main-section{
     background: #1A1A1A;
     padding-top: 44px;
     padding-bottom: 49px;
-   
 }
+
 .navbar-right{
     font-weight: 500;
     font-size: 14px;
@@ -107,9 +114,12 @@ ul {
     color: #FFFFFF;
     position: relative;
 }
+
 .navbar{
     justify-content: space-between;
+    margin-bottom: 111px;
 }
+
 .navbar-right::after{
     background: url("./assets/images/Line12.png") no-repeat;
     position: absolute;
@@ -118,5 +128,131 @@ ul {
     height: 10px;
     top: 22px;
     right: -5px;
+}
+
+.additional_information h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71px;
+    letter-spacing: -2.04px;
+    font-family: qanelas ;
+    margin-bottom: 27px;
+}
+
+.additional_information p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #A8A8A8;
+    margin-bottom: 30px;
+}
+
+.send_message p{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.416px;
+}
+
+.send_message{
+    display: flex;
+    color: #000000;
+    padding: 11px 12px;
+}
+
+.proect-user h2{
+    font-family: 'Qanelas';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 1px;
+}
+
+.proect-user p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.416px;
+    color: #A8A8A8;
+}
+.num{
+    margin-bottom: 52px;
+}
+
+.users-img::after{
+    position: absolute;
+    content: "";
+    background: url("./assets/images/dec2.png") no-repeat;
+    width: 70px;
+    height: 141px;
+    top: 0px;
+    right: 0px;
+}
+
+.users-img{
+    position: relative;
+}
+
+.users img{
+    padding-right: 110px;
+}
+
+.line::after{
+    position: absolute;
+    content: "";
+    background: url("./assets/images/dec3.png") no-repeat;
+    width: 64px;
+    height: 141px;
+    top: -35px;
+    right: -121px;
+}
+
+.line{
+    position: relative;
+}
+
+.proect-user p{
+    padding-right: 96px;
+}
+
+.other{
+    background: #1A1A1A;
+    padding: 60px 198px 108px 198px;
+}
+
+.other-reference{
+    font-family: 'Qanelas';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+}
+
+.other-reference h2{
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.container-other{
+    width: 971px;
+    margin: 0 auto;
+}
+
+.icons{
+    justify-content: space-between;
+}
+
+.additional_information {
+    margin-right: 57px;
+}
+
+.container{
+    margin-bottom: 178px;
 }
 
