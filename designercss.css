@@ -140,7 +140,7 @@ ul {
     margin-bottom: 27px;
 }
 
-.additional_information p{
+.additional_information > p{
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -159,7 +159,8 @@ ul {
 .send_message{
     display: flex;
     color: #000000;
-    padding: 11px 12px;
+    align-items: center;
+    border: none;
 }
 
 .proect-user h2{
@@ -250,9 +251,28 @@ ul {
 
 .additional_information {
     margin-right: 57px;
+    width: 420px;
 }
 
-.container{
-    margin-bottom: 178px;
+.main-section{
+    padding-bottom: 178px;
+}
+
+.send{
+    align-items: center;
+    justify-content: center;
+    display:flex
+}
+
+.send_message div:nth-child(1){
+    background: #FAE824;
+}
+
+.send_message div:nth-child(2){
+    background: #FFFFFF;
+}
+
+.send_message div{
+    padding: 12px;
 }
 
