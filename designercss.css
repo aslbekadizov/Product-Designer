@@ -81,6 +81,7 @@ ol,
 p {
     margin: 0;
     padding: 0;
+    /* font-size: 0px; */
 }
 
 ul {
@@ -180,6 +181,7 @@ ul {
     line-height: 19px;
     letter-spacing: 0.416px;
     color: #A8A8A8;
+    width: 168px;
 }
 .num{
     margin-bottom: 52px;
@@ -189,10 +191,11 @@ ul {
     position: absolute;
     content: "";
     background: url("./assets/images/dec2.png") no-repeat;
-    width: 70px;
-    height: 141px;
-    top: 0px;
-    right: 0px;
+    width: 214px;
+    height: 199px;
+    top: 482px;
+    right: 69px;
+    z-index: 1;
 }
 
 .users-img{
@@ -200,7 +203,9 @@ ul {
 }
 
 .users img{
-    padding-right: 110px;
+    margin-right: 110px;
+    position: relative;
+    z-index: 2;
 }
 
 .line::after{
@@ -209,21 +214,17 @@ ul {
     background: url("./assets/images/dec3.png") no-repeat;
     width: 64px;
     height: 141px;
-    top: -35px;
-    right: -121px;
+    top: -29px;
+    right: -219px;
 }
 
 .line{
     position: relative;
 }
 
-.proect-user p{
-    padding-right: 96px;
-}
-
 .other{
     background: #1A1A1A;
-    padding: 60px 198px 108px 198px;
+    padding: 71px 198px 108px 198px;
 }
 
 .other-reference{
@@ -250,13 +251,10 @@ ul {
 }
 
 .additional_information {
-    margin-right: 57px;
+    margin-right: 56px;
     width: 420px;
 }
 
-.main-section{
-    padding-bottom: 178px;
-}
 
 .send{
     align-items: center;
@@ -276,3 +274,197 @@ ul {
     padding: 12px;
 }
 
+.proect-user{
+    margin-top: 40px;
+}
+  /* 3-section */
+  
+.container-services{
+    width: 1296px;
+    margin: 0 auto;
+    background: #232323;
+    border-radius: 10px;
+}
+
+.services{
+    background: #1A1A1A;
+}
+
+.service-users{
+    width: 30%;
+}
+
+.service-users > h2{
+    font-family: 'Qanelas';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -1.05px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.service-users > p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #A8A8A8;
+    margin-bottom: 48px;
+}
+
+.services-user h2{
+    font-family: 'Qanelas';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+}
+
+.services-user p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.416px;
+    color: #A8A8A8;
+}
+
+.row-1{
+    border-top: 1px solid #5E5E5E; 
+    border-bottom: 1px solid #5E5E5E;
+}
+
+.row-2{
+    border-bottom: 1px solid #5E5E5E;
+}
+
+.row-3{
+    border-bottom: 1px solid #5E5E5E;
+}
+
+.row-4{
+    border-bottom: 1px solid #5E5E5E;
+}
+
+.about-us{
+    width: 70%;
+}
+
+    /* row-1 */
+
+.row-1 h2{
+    font-family: 'Qanelas';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.row-1 p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;  
+    letter-spacing: 0.28px;
+    color: #A8A8A8;
+}
+
+    /* row-2 */
+
+.row-2 h2{
+    font-family: 'Qanelas';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.row-2 p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;  
+    letter-spacing: 0.28px;
+    color: #A8A8A8;
+   
+}
+
+    /* row-3 */
+
+.row-3 h2{
+    font-family: 'Qanelas';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.row-3 p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;  
+    letter-spacing: 0.28px;
+    color: #A8A8A8;
+
+}
+
+    /* row-4 */
+
+
+.row-4 h2{
+    font-family: 'Qanelas';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.row-4 p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;  
+    letter-spacing: 0.28px;
+    color: #A8A8A8;
+}
+
+.about-us > div{
+    padding: 30px 102px 30px  32px;
+    justify-content: space-between;
+}
+
+.services-wrapper{
+    padding: 67px 59px 84px 38px;
+}
+
+.clients{
+    margin-bottom: 52px;
+}
+
+.about-us .about-us-item-img{
+    width: 20%;
+}
+
+.about-us h2{
+    width: 30%;
+}
+
+.about-us P{
+    width: 50%;
+}
+
+.services-wrapper > .row{
+    align-items: center;
+}
