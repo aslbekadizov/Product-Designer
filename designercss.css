@@ -648,6 +648,7 @@ width:  70%;
 
 .about-me{
     background: #1A1A1A;
+    margin-bottom: 110px;
 }
 
 .aboutme h2{
@@ -801,4 +802,59 @@ width:  70%;
     background-color: #262837;
     padding-top: 28px;
     padding-left: 32px;
+}
+
+.last-wrapper{
+    display: flex;
+}
+
+.last-section{
+    padding-bottom: 71px;
+}
+
+.working-me{
+    margin-right: 435px;
+}
+
+.working-me > p{
+    width:370px;
+    font-family: 'Qanelas';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -1.05px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+.social h4{
+    font-family: 'Qanelas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+    padding-top: 21px;
+    margin-bottom: 22px;
+}
+
+.social p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.364px;
+    color: #FFFFFF;
+}
+
+.social a{
+    color: #FFFFFF;
+    text-decoration: underline #FFFFFF;
+}
+
+.social img{
+    margin-bottom: 87px;
 }
