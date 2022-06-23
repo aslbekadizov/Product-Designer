@@ -88,6 +88,10 @@ ul {
     list-style-type: none;
 }
 
+body{
+    background-color: #1A1A1A;
+}
+
 .row{
     display: flex;
 }
@@ -102,9 +106,8 @@ ul {
 }
 
 .main-section{
-    background: #1A1A1A;
-    padding-top: 44px;
-    padding-bottom: 49px;
+    margin-top: 44px;
+    margin-bottom: 49px;
 }
 
 .navbar-right{
@@ -223,7 +226,6 @@ ul {
 }
 
 .other{
-    background: #1A1A1A;
     padding: 71px 198px 108px 198px;
 }
 
@@ -277,7 +279,7 @@ ul {
 .proect-user{
     margin-top: 40px;
 }
-  /* 3-section */
+  /* services section */
   
 .container-services{
     width: 1296px;
@@ -287,7 +289,7 @@ ul {
 }
 
 .services{
-    background: #1A1A1A;
+    margin-bottom: 110px ;
 }
 
 .service-users{
@@ -467,4 +469,336 @@ ul {
 
 .services-wrapper > .row{
     align-items: center;
+}
+
+/* Latest works section */
+
+.latest-works{
+    margin-bottom: 110px;
+}
+
+.latest-works-left > h2{
+    font-family: 'Qanelas';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -1.05px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.latest-works-left > p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #A8A8A8;
+    margin-bottom: 35px;
+    max-width: 271px;
+}
+
+.latest-works-left{
+    width: 30%;
+}
+
+.latest-works-right{
+width:  70%;
+}
+
+.all{
+    border-radius: 9px;
+    background: #262837;
+}
+
+.all h2{
+    font-family: 'Qanelas';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.63px;
+    color: #FFFFFF;
+}
+
+.all p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.336px;
+    color: #A8A8A8;
+}
+
+
+.tekfin p{
+    margin-bottom:99px;
+}
+
+.investment-app p{
+    margin-bottom: 13px;
+}
+
+.latest-works-right{
+    display: flex;
+}
+
+.nft-left, .nft-right{
+    width: 50%;
+}
+
+.nft-left{
+    margin-right: 41px;
+}
+
+.send-button-2 p{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.416px;
+}
+
+.send-button-2{
+    display: flex;
+    color: #000000;
+    align-items: center;
+    border: none;
+}
+
+.send-icon{
+    align-items: center;
+    justify-content: center;
+    display:flex
+}
+
+.send-button-2 div:nth-child(1){
+    background: #FAE824;
+}
+
+.send-button-2 div:nth-child(2){
+    background: #FFFFFF;
+}
+
+.send-button-2 div{
+    padding: 12px;
+}
+
+
+/* section-approach */
+
+.wrapper-approach{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-approach{
+    margin-bottom: 110px;
+}
+
+.basic h2{
+    font-family: 'Qanelas';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -1.05px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.all-reference{
+    background: #262525;
+    border-top: 5px solid #A8A8A8;
+    padding: 42px 23px 52px 29px;
+    width: 368px;
+}
+
+.all-reference h3{
+    font-family: 'Qanelas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;    
+    line-height: 37px;
+    letter-spacing: -0.63px;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+
+.all-reference h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.378px;
+    color: #A8A8A8;
+    margin-bottom:12px ;
+}
+
+.all-reference p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #A8A8A8;
+}
+/* section-about-me */
+
+.about-me{
+    background: #1A1A1A;
+}
+
+.aboutme h2{
+    font-family: 'Qanelas';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -1.05px;
+    color: #FFFFFF;
+    margin-bottom: 56px;
+}
+
+.aboutme img{
+    border-radius: 8px;
+    margin-right: 37px;
+}
+
+.my-skills p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #A8A8A8;
+    margin-top: 199px;
+    margin-bottom: 57px;
+}
+
+.skills h3{
+    font-family: 'Qanelas';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.wrapper-skills{
+    display: flex
+}
+
+.skills > .wrapper-skills{
+    margin-bottom: 61px;
+}
+
+.skills h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+    color: #A8A8A8;
+    position: relative;
+}
+
+.coder h4::before{
+    position: absolute;
+    background: url("./assets/images/3325098_code_icon.png")no-repeat;
+    content: "";
+    width: 30px;
+    height: 20px;
+    top: 0px;
+    left: -51px;
+}
+
+.coder {
+    margin-left: 51px;
+}
+
+.photography h4::before{
+    position: absolute;
+    content: "";
+    background: url("./assets/images/370090_camera_photo_photos_picture_image_icon.png")no-repeat;
+    width: 30px;
+    height: 25px;
+    top: -6px;
+    left: -49px;
+}
+
+.photography {
+    margin-left: 150px;
+}
+
+.illustrating{
+    margin-left: 51px;
+}
+
+.illustrating h4::before{
+    background:url("./assets/images/2760492_art_color_design_drawing_illustration_icon.png")no-repeat ;
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 27px;
+    top: -4px;
+    left: -51px;
+}
+
+.user-research{
+    margin-left: 168px;
+}
+
+.user-research h4::before{
+    background: url("./assets/images/Icon-Search.png")no-repeat;
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -9px;
+    left: -46px;
+}
+
+.digart-nft{
+    background: url("./assets/images/Pattern-fill-6f8f32ff650cdb4879d9020446f4a2e6.png") no-repeat;
+    height: 396px;
+    height: 396px;
+    margin-bottom: 50px;
+    background-position: bottom;
+    background-color: #262837;
+    padding-top: 34px;
+    padding-left: 27px;
+}
+
+.jiwa-raga{
+    margin-bottom: 50px;
+    background: url("./assets/images/Pattern-fill-127de44a01d68442528f008bf0ddb6bc.png") no-repeat;
+    height: 563px;
+    padding-top: 34px;
+    padding-left: 27px;
+    background-position: bottom right;
+    background-color: #262837;
+}
+
+.tekfin{
+    margin-bottom: 50px;
+    background: url("./assets/images/Pattern-fill-9dd399cb9524ab6471284d560ec36675.png") no-repeat;
+    height: 563px;
+    background-position: bottom right;
+    background-color: #262837;
+    padding-top: 25px;
+    padding-left: 26px;
+}
+
+.investment-app{
+    background: url("./assets/images/Pattern-fill-a96e7f0c7d359fb58f6ecf57aed3b236.png") no-repeat;
+    height: 396px;
+    background-position: bottom right;
+    background-color: #262837;
+    padding-top: 28px;
+    padding-left: 32px;
 }
